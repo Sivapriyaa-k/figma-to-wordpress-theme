@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <!-- Favicon -->
+  <!-- <link rel="icon" href="assets/images/favicon.png" type="image/ico" /> -->
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+  <title>Carasso Nadlan</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <!-- Desktop Nav -->
+    <nav class="navbar navbar-expand navbar-light">
+      <div class="container d-block">
+        <div class="row">
+          <div class="col-12 col-sm-8 col-md-9 col-lg-12">
+
+            <div class=" nav-inner d-flex w-100 justify-content-between align-items-center">
+              <a href="javascript:void(0)" onclick="openNav()">
+                <img src="assets/images/icons/hamburger.svg" />
+              </a>
+              <a class="navbar-brand" href="index.html">
+                <img src="assets/images/header_logo.svg" alt="logo" />
+              </a>
+              <a class="search-icon" href="index.html">
+                <img class="img-fluid" src="assets/images/icons/search.svg" />
+              </a>
+            </div>
+          </div>
+          <div class="col-12 mt-2 mt-sm-0 col-sm-4 col-md-3 d-lg-none header-select-col">
+            <div class="nav-inner d-flex w-100 justify-content-between align-items-center">
+              <select class="form-select custom-select bg-transparent border-0" id="mobileMenuDropdown"
+                onchange="location = this.value;">
+                <option value="#" disabled selected>הודעות</option>
+                <option value="#">הודעות</option>
+                <option value="#">משוב</option>
+                <option value="#">הסרת קישור</option>
+                <option value="#">יציאה קונטקט</option>
+              </select>
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </nav>
+    <!-- Breadcrumb Navigation -->
+    <nav class="pt-lg-0" aria-label="breadcrumb">
+      <div class="container">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html"><img style="max-width: 20px;"
+                src="assets/images/icons/house.svg" alt="Home"> - </a></li>
+          <li class="breadcrumb-item"><a href="#">פרויקטים למגורים</a></li>
+          <li class="breadcrumb-item active" aria-current="page">אומאמי</li>
+        </ol>
+      </div>
+    </nav>
+
+
+
+  </header>
+
+  <!-- Sidebar -->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-angle-double-right"></i></a>
+    <div class="sidenav-inner">
+
+      <ul>
+        <li><a class="sidenav-icon" href="#">הודעות</a></li>
+        <li><a class="sidenav-icon" href="#">הודעות</a></li>
+        <li><a class="sidenav-icon" href="#">משוב</a></li>
+        <li><a class="sidenav-icon" href="#">הסרת קישור</a></li>
+        <li><a class="sidenav-icon" href="#">יציאה קונטקט</a></li>
+      </ul>
+
+      <a href="javascript:void(0)" class="btn btn-success mt-5">Log out</a>
+    </div>
+  </div>
+  <!-- main -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <img class="img-fluid hero-img" src="assets/images/logo.svg" alt="logo" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Concept -->
+    <section class="concept-section">
+      <div class="container container-pr">
+        <div class="row align-items-center gx-md-5">
+          <div class="col-xl-5 position-relative">
+            <img class="img-fluid concept-vector" src="assets/images/concept-vector.svg" alt="vector" />
+            <h2 class="main-heading">הקונספט<br>
+              <span class="font-light">של אומאמי</span>
+            </h2>
+            <p>
+              מתוק, חמוץ, מר, מלוח ואומאמי. הטעם החמישי, האומאמי, הוא אמנם
+              הצנוע שבטעמים ועם זאת הוא ללא ספק המיוחד והמרתק מכולם. להבדיל
+              מטעמים אחרים, האומאמי אינו משנה את טעם המנה, אלא מחדד את כל יתר
+              הטעמים הקיימים בה, יוצר ביניהם הרמוניה יוצאת דופן והופך את
+              הארוחה כולה לשלמה, עוצמתית ומענגת.
+            </p>
+
+            <ul class="d-flex gap-2 mt-lg-5 pt-4 pt-lg-5">
+              <li>
+                <h6>6</h6>
+                <p>בניינים</p>
+                <span class="badge">גינת ירק</span>
+              </li>
+              <li>
+                <h6>31</h6>
+                <p>קומות</p>
+                <span class="badge">אוהבי בישול</span>
+              </li>
+              <li>
+                <h6>613</h6>
+                <p>דירות</p>
+                <span class="badge">אירוח</span>
+              </li>
+              <li>
+                <h6>4-5</h6>
+                <p>חדרים</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xl-7">
+            <img class="img-fluid w-100 mt-4 mt-lg-0" src="assets/images/concept.png" alt="status" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- Rooms -->
+    <section class="room-section">
+      <div class="container container-pr position-relative">
+        <div class="d-flex flex-column flex-md-row align-items-md-end gx-md-5">
+          <div>
+            <h2 class="main-heading">הדירות <br>
+              <span class="font-light">של אומאמי</span>
+            </h2>
+            <img class="room-circle-img" src="assets/images/rooms-bg.png" alt="">
+          </div>
+          <div>
+            <nav class="nav-tabs mb-4">
+              <ul class="tab-list">
+                <li class="tab-item active"><a href="javascript:void(0)"><img class="ms-2"
+                      src="assets/images/icons/4_tab.svg" alt="">4 חדרים</a></li>
+                <li class="tab-item"><a href="javascript:void(0)"><img class="ms-2" src="assets/images/icons/5_tab.svg"
+                      alt="">5 חדרים</a></li>
+                <li class="tab-item"><a href=javascript:void(0)#"><img class="ms-2" src="assets/images/icons/6_tab.svg"
+                      alt="">6 חדרים</a></li>
+              </ul>
+            </nav>
+          </div>
+
+        </div>
+        <div class="row justify-content-end gx-md-5">
+          <div class="col-md-12 col-xxl-11 mb-4">
+            <div id="room" class="owl-carousel">
+              <div class="item">
+                <div class="row align-items-center gx-md-5">
+                  <div class="col-md-6">
+                    <img class="img-fluid concept-vector" src="assets/images/room.png" alt="vector" />
+                  </div>
+                  <div class="col-md-6">
+                    <h3>דירת 4 חדרים סוג 1</h3>
+                    <p>
+                      ממוקמת בחזית המבנה, עם 24 מ״ר שטח מרפסת וסלון מפנק
+                      במיוחד, לאנשים שמחוברים לנוף
+                    </p>
+
+                    <ul class="d-flex gap-2 mt-4 mb-5">
+                      <li>
+                        <span class="badge">מרפסת</span>
+                      </li>
+                      <li>
+                        <span class="badge">למשפחה עם 2 ילדים</span>
+                      </li>
+                      <li>
+                        <span class="badge">הכל במקום</span>
+                      </li>
+                    </ul>
+
+                    <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal">לצפייה בשרטוט
+                      הדירה</a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row align-items-center gx-md-5">
+                  <div class="col-md-6">
+                    <img class="img-fluid concept-vector" src="assets/images/room.png" alt="vector" />
+                  </div>
+                  <div class="col-md-6">
+                    <h3>דירת 4 חדרים סוג 1</h3>
+                    <p>
+                      ממוקמת בחזית המבנה, עם 24 מ״ר שטח מרפסת וסלון מפנק
+                      במיוחד, לאנשים שמחוברים לנוף
+                    </p>
+
+                    <ul class="d-flex gap-2 mt-4 mb-5">
+                      <li>
+                        <span class="badge">מרפסת</span>
+                      </li>
+                      <li>
+                        <span class="badge">למשפחה עם 2 ילדים</span>
+                      </li>
+                      <li>
+                        <span class="badge">הכל במקום</span>
+                      </li>
+                    </ul>
+
+                    <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal">לצפייה בשרטוט
+                      הדירה</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Status -->
+    <section class="status-section"
+      style="background-image: url('assets/images/icons/bg-status-section.png'); background-size:cover; background-repeat:no-repeat;">
+      <div class="container container-pr">
+        <div class="row align-items-center gx-md-5">
+          <div class="col-md-7 order-2 order-md-1">
+            <img class="img-fluid w-100 mt-5 mt-md-0" src="assets/images/status.png" alt="status" />
+          </div>
+          <div class="col-md-5 order-1 order-md-2">
+            <span class="badge badge-dark mb-5">
+              <img class="ms-2" src="assets/images/settings-light.png" alt=""> הגדרות
+            </span>
+            <h2 class="main-heading mb-5">
+              סטטוס <br />
+              <span class="fw-normal"> התקדמות </span>
+            </h2>
+
+            <div class="d-flex justify-content-between">
+              <ul class="status-block">
+                <li>
+                  <img src="assets/images/check.svg" alt="check" /> קבלת היתר
+                  בנייה
+                </li>
+                <li>
+                  <img src="assets/images/check.svg" alt="check" /> בניית שלד
+                </li>
+                <li>
+                  <img src="assets/images/check.svg" alt="check" /> הכנות לטיח
+                </li>
+                <li>
+                  <img class="circle" src="assets/images/circle.svg" alt="check" />
+                  הכנות לטיח
+                </li>
+                <li>
+                  <img class="circle" src="assets/images/circle.svg" alt="check" />
+                  הכנות לטיח
+                </li>
+                <li>
+                  <img class="circle" src="assets/images/circle.svg" alt="check" />
+                  הכנות לטיח
+                </li>
+              </ul>
+              <ul class="status-link">
+                <li><a class="active" href="#">בניין A</a></li>
+                <li><a href="#">בניין B</a></li>
+                <li><a href="#">בניין C</a></li>
+                <li><a href="#">בניין D</a></li>
+                <li><a href="#">בניין E</a></li>
+                <li><a href="#">בניין F</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Enviroment -->
+    <section class="enviroment-section">
+      <div class="container container-pr">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="main-heading">הסביבה</h2>
+            <p>
+              הטעם האמיתי בחוויה שמשלבת את כל החושים פארק ירוק ששטחו 50 דונם
+              ובו תוכלו ליהנות מטיולים רגליים, אחה"צ עם הילדים וחוויות חדשות
+              ומרתקות בטבע הירוק עם כל המשפחה.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <a href="javascript:void(0)" class="image-block">
+              <img class="img-fluid" src="assets/images/envoirnment/3.jpeg" alt="1" />
+              <h6>ליהנות מטיולים רגליים</h6>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="javascript:void(0)" class="image-block">
+              <img class="img-fluid" src="assets/images/envoirnment/2.jpeg" alt="1" />
+              <h6>ליהנות מטיולים רגליים</h6>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="javascript:void(0)" class="image-block">
+              <img class="img-fluid" src="assets/images/envoirnment/1.jpeg" alt="1" />
+              <h6>ליהנות מטיולים רגליים</h6>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Map -->
+    <section class="map-section position-relative">
+      <div class="container container-pr">
+        <div class="row position-relative" style="z-index: 1;">
+          <div class="col-md-12">
+            <h2 class="main-heading">המיקום</h2>
+            <img class="img-fluid w-100" src="assets/images/map.svg" alt="map" />
+          </div>
+        </div>
+        <img style="position: absolute; top: 0px; z-index: 0;" src="assets/images/star_map.png" alt="">
+        <img style="position: absolute; bottom: 0px; left:0px; z-index: 0;" src="assets/images/circle_map.png" alt="">
+      </div>
+    </section>
+    <!-- Contact -->
+    <section class="contact-section">
+      <div class="container container-pr">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="contact-inner">
+              <h2 class="main-heading text-white">יצירת קשר</h2>
+              <p>הצוות שלנו ישמח לענות על כל שאלה שעולה לך.</p>
+              <form>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="שם מלא*" />
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="מספר טלפון*" />
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="אימייל*" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                  <label class="form-check-label" for="exampleCheck1">אני מסכים/ה לקבל מקרסו נדל"ן או מי מטעמה, דבר
+                    פרסומת,
+                    לרבות הצעות למבצעים בקשר עם פרויקטים והצעות אחרות, וזאת
+                    באמצעים אלקטרוניים (SMS, דוא"ל, חיוג אוטומטי ועוד), פרטיך
+                    יישמרו ו/או יעשה בהם שימוש בהתאם למדיניות הפרטיות של
+                    החברה.</label>
+                </div>
+                <div class="text-start mt-4">
+                  <button type="submit" class="btn btn-light fw-bold">שליחה <img class="img-fluid me-1"
+                      src="assets/images/icons/arrow_right_contact.svg" alt=""></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- More Projects -->
+    <section class="project-section">
+      <div class="container container-pr">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row align-items-center">
+              <div class="col">
+                <h2 class="main-heading">פרויקטים <span class="font-light">נוספים</span></h2>
+              </div>
+              <div class="col text-start"> <a class="dropdown-item" href="#">פרויקטים למגורים <img class="me-2"
+                    src="assets/images/icons/min-right-footer-arrow.svg" alt=""></a>
+              </div>
+            </div>
+            <div id="feature" class="owl-carousel">
+              <!-- Multiple items -->
+              <div class="item">
+                <a href="javascript:void(0)">
+                  <img class="project-img" src="assets/images/projects.jpg" alt="Project Kiryat Ono" />
+                  <div class="badge"> <img src="assets/images/project_mail_icon.svg" />בתכנון</div>
+                </a>
+                <h6 class="mt-3 mb-0">קריית אונו</h6>
+                <h1 class="mb-1">אומאמי</h1>
+                <p>
+                  התאמה לסביבת המגורים התל אביבית התוצאה היא שילוב מרשים של
+                  נוחות, איכות, נוסטלגיה וחדשנות.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal drawing-modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body py-4 px-5">
+            <button type="button" class="btn-close mb-4" data-bs-dismiss="modal" aria-label="Close"></button>
+
+            <div class="row align-items-center gx-md-5">
+
+              <div class="col-lg-5 col-xl-4 mt-5 order-1">
+                <h3 class="mb-4">דירת 5 חדרים סוג 1</h3>
+                <div class="row align-items-start">
+                  <!-- 1  -->
+                  <div class="col-12 col-sm-5 col-lg-12">
+                    <ul class="d-flex gap-4 mb-3 justify-content-between">
+                      <li>
+                        <h6>סוג הנכס</h6>
+                        <p>דירה</p>
+                      </li>
+                      <li>
+                        <h6>קומה</h6>
+                        <p>בין 7-16</p>
+                      </li>
+                      <li>
+                        <h6>חדרים</h6>
+                        <p>5</p>
+                      </li>
+                    </ul>
+
+                    <ul class="d-flex gap-4 justify-content-between">
+                      <li>
+                        <h6>טיפוס</h6>
+                        <p>C3a</p>
+                      </li>
+                      <li>
+                        <h6>שטח המרפסת</h6>
+                        <p>14.5 מ״ר</p>
+                      </li>
+                      <li>
+                        <h6>שטח הדירה</h6>
+                        <p>123 מ״ר</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- 2 -->
+                  <div class="col-12 col-sm-5 col-lg-12">
+                    <h6 class="mt-0 mt-lg-4">שטח הדירה</h6>
+
+
+                    <ul class="d-flex flex-wrap gap-3 mt-3 mb-5">
+                      <li>
+                        <span class="badge">למשפחה עם 2 ילדים</span>
+                      </li>
+                      <li>
+                        <span class="badge">הכל במקום</span>
+                      </li>
+                      <li>
+                        <span class="badge">קולינרי</span>
+                      </li>
+                      <li>
+                        <span class="badge">מרפסת</span>
+                      </li>
+                      <li>
+                        <span class="badge">קהילתי</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-12 col-sm-2 col-lg-12 mt-0 mt-lg-5">
+                    <p class="mb-1"><img src="assets/images/pdf_download.svg" alt=""> PDF להורדה</p>
+                    <p><img src="assets/images/icons/share.svg" alt=""> שיתוף</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7 col-xl-8 order-2 order-lg-0">
+                <img class="circle" src="assets/images/drawing.png" alt="drawing" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-lg-3 d-none d-md-block">
+          <img src="assets/images/footer-logo.svg" alt="logo" />
+        </div>
+        <!-- Logo and social icons on mobile view -->
+        <div class="col-12 text-center d-block d-md-none mb-4">
+          <div class="d-flex justify-content-between">
+            <img src="assets/images/footer-logo-light.svg" alt="logo" class="footer-logo" />
+            <ul class="social-icon">
+              <li><a href="#"><img src="assets/images/fb_light.svg" alt="Facebook"></a></li>
+              <li><a href="#"><img src="assets/images/insta_light.svg" alt="Instagram"></a></li>
+              <li><a href="#"><img src="assets/images/linkedin_light.svg" alt="LinkedIn"></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Regular footer content -->
+        <div class="col-sm-12 col-lg-9">
+          <div class="row">
+            <div class="col-6 col-md-3 col-lg-4 mb-4">
+              <h4>החברה</h4>
+              <ul class="footer-link">
+                <li><a href="javascript:void()">דף הבית</a></li>
+                <li><a href="javascript:void()">הסיפור שלנו</a></li>
+                <li><a href="javascript:void()">התחדשות עירונית</a></li>
+                <li><a href="javascript:void()">חדשות ועידכונים</a></li>
+                <li><a href="javascript:void()">יצירת קשר</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-3 col-lg-4 mb-4">
+              <h4>פרויקטים</h4>
+              <ul class="footer-link">
+                <li><a href="javascript:void()">פרויקטים למגורים</a></li>
+                <li><a href="javascript:void()">סיפורי הצלחה</a></li>
+                <li><a href="javascript:void()">מרכזי קניות</a></li>
+                <li><a href="javascript:void()">משרדים והייטק</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-3 col-lg-4 mb-4">
+              <h4>פנו אלינו</h4>
+              <ul class="footer-link">
+                <li><a href="tel:03-111-1111">+972 050 123 1234</a></li>
+                <li><a href="tel:03-111-1111">ריב״ל 24, תל אביב-יפו</a></li>
+                <li><a href="mailto:info@carasso-nadlan.com">info@carasso-nadlan.com</a></li>
+              </ul>
+              <ul class="social-icon d-none d-md-flex">
+                <li>
+                  <a href="javascript:void(0)"><img src="assets/images/fb.svg" alt="fb" /></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"><img src="assets/images/insta.svg" alt="insta" /></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"><img src="assets/images/linkedin.svg" alt="linkedin" /></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-3 col-lg-3 mb-4 d-md-none">
+              <!-- Copy Right -->
+              <div class="copy-right mt-0">
+                <div class="row align-items-center justify-content-center">
+                  <div class="col-md-12 text-center">
+                    <ul>
+                      <li><a href="javascript:void(0)">&copy; 2023 קרסו</a></li>
+                      <li><a href="javascript:void(0)">אחריות תאגידית</a></li>
+                      <li><a href="javascript:void(0)">איסוף נתונים</a></li>
+                      <li><a href="javascript:void(0)">הצהרת נגישות</a></li>
+                      <li><a href="javascript:void(0)">מדיניות פרטיות</a></li>
+                      <li><a href="javascript:void(0)">קרדיטים</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-12 d-none d-md-block">
+              <!-- Copy Right -->
+              <div class="copy-right">
+                <div class="row align-items-center justify-content-start">
+                  <div class="col-md-10 text-center">
+                    <ul>
+                      <li><a href="javascript:void(0)">&copy; 2023 קרסו</a></li>
+                      <li><a href="javascript:void(0)">אחריות תאגידית</a></li>
+                      <li><a href="javascript:void(0)">איסוף נתונים</a></li>
+                      <li><a href="javascript:void(0)">הצהרת נגישות</a></li>
+                      <li><a href="javascript:void(0)">מדיניות פרטיות</a></li>
+                      <li><a href="javascript:void(0)">קרדיטים</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 footer-settings pt-4">
+          <div class="dropdown-custom">
+            <ul class="dropdown-menu-custom pt-4" aria-labelledby="dropdownMenuButton1" style="display: none;">
+              <li class=" d-flex justify-content-between dropdown-item mb-4"><b>יצירת קשר</b><a class="toggleMenuButton"
+                  type="button"><img src="assets/images/icons/x-circle.svg" alt=""></a> </li>
+              <li><a class="dropdown-item" href="#">טופס יצירת קשר<img class="me-2"
+                    src="assets/images/icons/min-right-footer-arrow.svg" alt=""></a></li>
+              <li><a class="dropdown-item" href="#">חייגו אלינו<img class="me-2"
+                    src="assets/images/icons/min-right-footer-arrow.svg" alt=""></a></li>
+            </ul>
+          </div>
+          <button class=" d-none d-md-inline btn btn-dark btn-call-footer toggleMenuButton" type="button">
+            יצירת קשר <img class="me-2" src="assets/images/icons/phone_white.svg" alt="">
+          </button>
+          <button class="d-md-none btn btn-dark btn-call-footer btn-call-footer-red toggleMenuButton" type="button">
+            <img src="assets/images/icons/phone_white.svg" alt="">
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <div class="fixed-settings-bar mt-5 d-none d-lg-block">
+    <div class="dropdown-custom">
+      <ul class="dropdown-menu-custom" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item mb-4" href="#"><img src="assets/images/settings_logo.svg" alt=""></a></li>
+        <li><a class="dropdown-item" href="#">הודעות</a></li>
+        <li><a class="dropdown-item" href="#">הודעות</a></li>
+        <li><a class="dropdown-item" href="#">משוב</a></li>
+        <li><a class="dropdown-item" href="#">הסרת קישור</a></li>
+        <li><a class="dropdown-item" href="#">יציאה קונטקט</a></li>
+      </ul>
+      <button class="btn btn-light btn-settings" type="button">
+        <img class="ms-2" src="assets/images/icons/settings.svg" alt=""> הגדרות
+      </button>
+    </div>
+  </div>
+
+
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "220px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    $('.fixed-settings-bar .btn-settings').click(function () {
+      $('.fixed-settings-bar .dropdown-menu-custom').slideToggle(300);
+    });
+
+    var toggleButtons = document.getElementsByClassName('toggleMenuButton');
+
+    for (var i = 0; i < toggleButtons.length; i++) {
+      toggleButtons[i].addEventListener('click', function () {
+        var dropdown = document.querySelector('.dropdown-menu-custom');
+        dropdown.style.display = (dropdown.style.display === 'none' || dropdown.style.display === '') ? 'block' : 'none';
+      });
+    }
+
+
+    $("#feature").owlCarousel({
+      loop: true,
+      margin: 20,
+      dots: false,
+      autoplay: false,
+      smartSpeed: 300,
+      autoplayTimeout: 5000,
+      autoplaySpeed: 3000,
+      rtl: true,
+      nav: false,
+
+      responsive: {
+        0: {
+          items: 1,
+        },
+
+        767: {
+          items: 2,
+        },
+        992: {
+          items: 3,
+        },
+      },
+    });
+
+
+    $("#room").owlCarousel({
+      loop: true,
+      margin: 15,
+      dots: true,
+      autoplay: false,
+      smartSpeed: 300,
+      autoplayTimeout: 5000,
+      autoplaySpeed: 3000,
+      rtl: true,
+      nav: true,
+
+      responsive: {
+        0: {
+          items: 1,
+        }
+      },
+    });
+  </script>
+</body>
+
+</html>

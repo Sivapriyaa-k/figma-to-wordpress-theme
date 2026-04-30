@@ -1,0 +1,6 @@
+uploads/
+upgrade/
+cache/
+jetpack-waf/
+*.log
+.DS_Store
