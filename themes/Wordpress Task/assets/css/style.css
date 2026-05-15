@@ -188,6 +188,7 @@ header .menu ul {
     transform 0.4s ease,
     box-shadow 0.4s ease;
 }
+
 .btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
@@ -210,6 +211,7 @@ header .menu ul {
   z-index: 999;
   height: 96px;
 }
+
 .hero-boxes .box.active {
   background-color: rgba(255, 255, 255, 0.2);
   width: 297px;
@@ -217,6 +219,7 @@ header .menu ul {
   align-items: center;
   padding-left: 25px;
 }
+
 .hero-boxes .box.active::after {
   content: "";
   width: 224px;
