@@ -177,6 +177,20 @@ header .menu ul {
   align-items: center;
   gap: 10px;
 }
+
+.aboutRightContent .btn:hover {
+  background-color: #157cc5;
+  color: #fff;
+}
+
+.btn {
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
 .hero-content a {
   color: #fff;
   border: 1px solid #fff;
