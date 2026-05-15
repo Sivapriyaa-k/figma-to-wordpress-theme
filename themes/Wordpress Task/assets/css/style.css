@@ -366,9 +366,11 @@ h2 {
   padding-top: 75px;
   padding-bottom: 75px;
 }
+
 .ourServices-boxes {
   gap: 40px;
 }
+
 .ourServices-box {
   width: 50%;
 }
@@ -412,9 +414,6 @@ h2 {
   margin-top: 60px;
 }
 
-.ourfeature-box {
-}
-
 .ourfeature-box img {
   margin-bottom: 33.5px;
 }
@@ -430,6 +429,7 @@ h2 {
   line-height: 22px;
   font-weight: 400;
 }
+
 /* our partners */
 
 .our-partners {
