@@ -184,7 +184,9 @@ header .menu ul {
 }
 
 .btn {
-  transition: all 0.3s ease;
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.4s ease;
 }
 .btn:hover {
   transform: translateY(-3px);
